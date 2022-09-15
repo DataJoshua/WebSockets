@@ -1,0 +1,18 @@
+.frame{
+    height: 70vh;
+    width: 50vw;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.room{
+    margin-top: 10px
+}
+
+.frame-child{
+    width: inherit;
+    background-color: #ccc;
+    padding: 5px 10px;
+}
